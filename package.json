@@ -1,0 +1,28 @@
+{
+  "name": "playwright-scraping",
+  "version": "1.0.0",
+  "description": "Web scraping with playwright",
+  "main": "index.js",
+  "scripts": {
+    "scraper": "node scraper.ts",
+    "scraper:3": "for run in {1..3}; do node scraper.ts; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakharova22/playwright-scraping.git"
+  },
+  "keywords": [
+    "playwright"
+  ],
+  "author": "Zakharova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakharova22/playwright-scraping/issues"
+  },
+  "homepage": "https://github.com/zakharova22/playwright-scraping#readme",
+  "dependencies": {
+    "playwright": "^1.41.2",
+    "prettier": "^3.2.5",
+    "random-useragent": "^0.5.0"
+  }
+}
